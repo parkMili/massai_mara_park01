@@ -1,0 +1,11 @@
+name: Test EC2 Connection with GHA
+
+on:
+   workflw_dispatch
+
+jobs:
+   test-ec2-connect:
+      name: test ec2 connection
+      runs-on: ubuntu-22.04
+   steps:
+   - name:
