@@ -10,7 +10,7 @@ COPY src ./src
 RUN gradle bootJar --no-daemon -x test
 
 # 실행 단계
-FROM amazoncorretto:17-alpine
+FROM amazoncorretto:17
 
 WORKDIR /app
 
